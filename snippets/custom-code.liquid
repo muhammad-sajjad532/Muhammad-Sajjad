@@ -1,0 +1,22 @@
+{% schema %}
+{
+  "name": "Custom Code Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_text",
+      "label": "Custom Text",
+      "default": "This is custom section"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Code"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="custom-code">
+  <h2>{{ section.settings.custom_text }}</h2>
+</div>
