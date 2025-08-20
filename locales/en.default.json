@@ -1,0 +1,11 @@
+{
+  "general": {
+    "404": {
+      "title": "Page not found",
+      "subtext": "The page you requested does not exist."
+    },
+    "password_page": {
+      "login_form_heading": "Enter store password"
+    }
+  }
+}
